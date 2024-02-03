@@ -13,10 +13,42 @@
 }
 
 .ismoil {}
+
 /* ali section*/
-.ali__title{
-  color: chartreuse;
+.ali__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 62px;
+    margin-bottom: 28px;
 }
+
+.ali__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 1);
+    
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+}
+
+.ali__card-title {
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.ali__card-text {
+    width: 198px;
+    text-align: center;
+}
+
 /* ali section*/
 .alisher {}
 
